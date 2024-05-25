@@ -1,6 +1,6 @@
-<p>pc 1</p>
-<p>pc 2</p>
-<p>pc 3</p>
-
-
-  
+<ul class="list-group" *ngFor="let item of pc">    
+        <li>{{item.title}}</li>
+        <li>{{item.price}}</li>
+        <li>{{item.description}}</li>
+        <li>{{item.category}}</li>    
+</ul>
